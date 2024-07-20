@@ -1,4 +1,4 @@
-## 2- Criar um diretório chamado tutorial com o tutorial de como instalar o Prometheus no Linux.
+### 2- Criar um diretório chamado tutorial com o tutorial de como instalar o Prometheus no Linux.
 ### Download e extracao do Prometheus
 #### acesse o site oficial do Prometheus
     

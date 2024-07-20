@@ -1,4 +1,4 @@
-## 3- Criar um diretório com o nome conf com todos os arquivos necessários para a configuração
+### 3- Criar um diretório com o nome conf com todos os arquivos necessários para a configuração
 Todos os arquivos para as configurações conseguimos através do download do site
 
     https://prometheus.io/download/
