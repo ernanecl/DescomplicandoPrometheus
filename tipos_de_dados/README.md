@@ -16,7 +16,7 @@ Ele pode ser usado por metricas como o número de requisições, quantidade de e
 
 &nbsp;
 
-__Exemplo de `query` do tipo `counter`__
+*_Exemplo de `query` do tipo `counter`_**
 
 ```PROMQL
 go_gc_duration_seconds_count
@@ -29,7 +29,7 @@ A funcao pega o histórico de métricas em um período de tempo e calcula o quã
 
 &nbsp;
 
-__Um exemplo de `query counter` com a função `rate()`__
+*_Um exemplo de `query counter` com a função `rate()`_**
 
 ```PROMQL
 rate(go_gc_duration_seconds_count[5m])
@@ -55,7 +55,7 @@ Limites de `bucket` podem ser configurados pelo `desenvolvedor`. Um exemplo comu
 
 &nbsp;
 
-__Exemplo:__
+*_Exemplo:_**
 
 Vamos supor que queremos observar o tempo gasto para processar solicitações de `API`.
 
@@ -69,7 +69,7 @@ Então, esses são nossos `buckets` e, uma vez que o tempo gasto para uma solici
 
 &nbsp;
 
-__Exemplo de `query Histogram` - `bucket`__
+*_Exemplo de `query Histogram` - `bucket`_**
 
     prometheus_http_request_duration_seconds_bucket{handler="/graph"}
 
