@@ -1,6 +1,6 @@
-#### 2- Criar um diretório chamado tutorial com o tutorial de como instalar o Prometheus no Linux.
+### Criar um diretório chamado tutorial com o tutorial de como instalar o Prometheus no Linux.
 
-##### Download e extracao do Prometheus
+#### Download e extracao do Prometheus
 
 Acesse o site oficial do Prometheus `https://prometheus.io/download/`.
 
@@ -40,7 +40,7 @@ O comando abaixo podemos verificar a versao do Prometheus.
 &nbsp;
 &nbsp;
 
-##### Configuração do Prometheus
+#### Configuração do Prometheus
 
 Depois da extracao, iniciamos a configuracao movendo os arquivos `prometheus` e `promtool` para o diretorio `bin`.
 Mover os binarios possibilita executar o `Prometheus` sem a necessidade de usar o comando `./`.
@@ -61,7 +61,7 @@ sudo cp prometheus-2.51.1.linux-amd64/prometheus.yml /etc/prometheus/
 
 &nbsp;
 
-No arquivo `prometheus.yml` vamos deixar como no exemplo abaixo.
+__No arquivo `prometheus.yml` vamos deixar como no exemplo abaixo.__
 
 ```YML
 global:
@@ -98,7 +98,7 @@ sudo mkdir /var/lib/prometheus
 &nbsp;
 &nbsp;
 
-##### Prometheus como servico
+#### Prometheus como servico
 
 Vamos executar o `Prometheus` como serviço e para não fazer o `root` ser responsável pela execução do serviço, criaremos um usuário e grupo para o `Prometheus`.
 Para realizar essa tarefa, vamos criar o usuario e grupo com o nome `prometheus`, executantodo os comandos abaixo.
@@ -120,7 +120,7 @@ sudo vim /etc/systemd/system/prometheus.service
 
 &nbsp;
 
-Dentro do arquivo vamos adicionar o conteudo do exemplo abaixo.
+__Dentro do arquivo vamos adicionar o conteudo do exemplo abaixo.__
 
 ```
 [Unit]
@@ -198,7 +198,7 @@ sudo journalctl -u prometheus
 &nbsp;
 &nbsp;
 
-##### Acessando Prometheus e suas metricas
+#### Acessando Prometheus e suas metricas
 
 Podemos acessar o `Prometheus` e suas `metricas` pela a interface gráfica pelos links `http://localhost:9090` e `http://localhost:9090/metrics`.
 
