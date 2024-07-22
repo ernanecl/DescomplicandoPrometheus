@@ -120,7 +120,7 @@ sudo vim /etc/systemd/system/prometheus.service
 
 &nbsp;
 
-__Dentro do arquivo vamos adicionar o conteudo do exemplo abaixo.__
+**__Dentro do arquivo vamos adicionar o conteudo do exemplo abaixo.__**
 
 ```
 [Unit]
