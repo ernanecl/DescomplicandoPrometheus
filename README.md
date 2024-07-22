@@ -18,7 +18,7 @@
 
 5- Diga aqui nos comentários o seu `repo`!
 
-**_Repositorio `https://github.com/ernanecl/DescomplicandoPrometheus/tree/main`_**
+**_`https://github.com/ernanecl/DescomplicandoPrometheus/tree/main`_**
 
 &nbsp;
 &nbsp;
