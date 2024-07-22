@@ -61,7 +61,7 @@ sudo cp prometheus-2.51.1.linux-amd64/prometheus.yml /etc/prometheus/
 
 &nbsp;
 
-*_No arquivo `prometheus.yml` vamos deixar como no exemplo abaixo._**
+**_No arquivo `prometheus.yml` vamos deixar como no exemplo abaixo._**
 
 ```YML
 global:
@@ -120,7 +120,7 @@ sudo vim /etc/systemd/system/prometheus.service
 
 &nbsp;
 
-*_Dentro do arquivo vamos adicionar o conteudo do exemplo abaixo._**
+**_Dentro do arquivo vamos adicionar o conteudo do exemplo abaixo._**
 
 ```
 [Unit]
