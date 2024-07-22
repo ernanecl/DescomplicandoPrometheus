@@ -10,7 +10,7 @@
 
 3- Criar um diretório com o nome `conf` com todos os arquivos necessários para a configuração.
 
-**_ [conf](https://github.com/ernanecl/DescomplicandoPrometheus/tree/main/conf)_**
+**_[conf](https://github.com/ernanecl/DescomplicandoPrometheus/tree/main/conf)_**
 
 4- Criar um diretório com o nome `tipos_de_dados` com um artigo explicando os tipos de dados que vocês aprenderam.
 
